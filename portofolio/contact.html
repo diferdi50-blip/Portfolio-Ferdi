@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portfolio Ferdi</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Navigasi -->
+    <nav>
+        <div class="container">
+            <div class="logo">MyPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button id="darkModeToggle" class="dark-mode-btn">🌙</button>
+        </div>
+    </nav>
+
+    <main class="page-content">
+        <section class="contact-section">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <h1>Hubungi Saya</h1>
+                    <p>Silakan hubungi saya melalui informasi kontak berikut.</p>
+                    <div class="contact-item">
+                        <strong>Email</strong>
+                        <span>diferdi50@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Nomor HP</strong>
+                        <span>081255236844</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Asal</strong>
+                        <span>Mempawah, Kalimantan Barat</span>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name" placeholder="Masukkan nama" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Masukkan email" required>
+
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Tulis pesan" required></textarea>
+
+                    <button type="submit" class="btn">Kirim Pesan</button>
+                    <p id="form-message" class="form-message" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 MyPortfolio</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
